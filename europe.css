@@ -1,0 +1,26 @@
+td {
+	padding: 3px;
+	border: solid gray 2px;
+	border-collapse: collapse;
+	background-image: radial-gradient(circle at 50%, lime 50%, olivedrab 100%, lime 50%);
+	font-size: 20px;
+}
+
+table {
+	border: solid gray 2px;
+	border-collapse: collapse;
+}
+
+.number {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+}
+
+::selection {
+    color: lime;
+    background-color: olivedrab;
+}
