@@ -2,7 +2,7 @@ td {
 	padding: 3px;
 	border: solid gray 2px;
 	border-collapse: collapse;
-	background-image: radial-gradient(circle at 50%, lime 50%, olivedrab 100%, lime 50%);
+	background-image: linear-gradient(to bottom right, olivedrab, lime, olivedrab);
 	font-size: 20px;
 }
 
