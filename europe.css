@@ -2,8 +2,7 @@ td {
 	padding: 3px;
 	border: solid gray 2px;
 	border-collapse: collapse;
-	background-image: linear-gradient(to bottom right, olivedrab, lime, olivedrab);
-	font-size: 20px;
+	font-size: 30px;
 }
 
 table {
