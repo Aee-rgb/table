@@ -18,7 +18,7 @@
 	<td class ='title'>Площадь</td>
 </tr>
 <xsl:for-each select="//Страна">
-<xsl:sort order="ascending" select="Название"/>
+<xsl:sort order="descending" select="Название"/>
 <xsl:if test="Площадь &lt; 200">
 <tr>
     <td><xsl:value-of select="Название"/></td>
